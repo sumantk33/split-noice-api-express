@@ -1,11 +1,11 @@
-# Restful API ExpressJs Server Boilerplate
+# API server for SplitNoise App
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ## About
 
-A boilerplate/starter project for quickly building RESTful APIs using Node.js and Express. The app has support for features like logging, request validation etc.
+An API server for SplitNoise using Node.js and Express. The app has support for features like logging, request validation etc.
 
 ## Manual Installation
 
@@ -14,8 +14,8 @@ If you would still prefer to do the installation manually, follow these steps:
 Clone the repo:
 
 ```bash
-git clone --depth 1 https://github.com/sumantk33/expressjs-test.git
-cd expressjs-test
+git clone --depth 1 https://github.com/sumantk33/split-noise-api.git
+cd split-noise-api
 npx rimraf ./.git
 ```
 
@@ -85,7 +85,6 @@ PORT=3000
 
 #ENV type
 NODE_ENV=
-# URL of the Mongo DB
 ```
 
 ## Project Structure
@@ -161,7 +160,7 @@ router.post('/login', validateData(reqBodySchema), (req, res) => {
 
 ## Logging
 
-Import the logger from `src/config/logger.js`. It is using the [Winston](https://github.com/winstonjs/winston) logging library.
+Import the logger from `src/config/logger.js`.
 
 Logging should be done according to the following severity levels (ascending order from most important to least important):
 
