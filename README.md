@@ -1,11 +1,11 @@
-# API server for SplitNoise App
+# API server for SplitNoice App
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ## About
 
-An API server for SplitNoise using Node.js and Express. The app has support for features like logging, request validation etc.
+An API server for SplitNoice using Node.js and Express. The app has support for features like logging, request validation etc.
 
 ## Manual Installation
 
